@@ -2,16 +2,11 @@
 int main() {
     double num1, num2;
     char opt;
-
-    cout << "Ingrese el primer numero: ";
     cin >> num1;
-
     cout << "Ingrese el operador (+, -, *, /): ";
     cin >> opt;
-
     cout << "Ingrese el segundo numero: ";
     cin >> num2;
-
     if (opt == '+') {
         cout << "Resultado: " << num1 + num2;
     }
